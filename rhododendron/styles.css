@@ -50,18 +50,19 @@ p1{
 
 
 
-\#FlowerPictureMain {
-        width: 50vw;
+#FlowerPictureMain {
+        width:375vw;
+        left: 667vw;
     }
 
 #FlowerTitle {
-        width: 50vw;
-        left: 50vw;
+        width: 375vw;
+        left: 222vw;
         background-color:pink;
     }
 
      #FlowerTitle h1 {
-        width: 45vw;
+        width: 187vw;
     }
 
 
