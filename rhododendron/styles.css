@@ -1,58 +1,58 @@
-/* mobile-first design for Pacific Rhododendron layout */
+/*mobile-first design for Pacific Rhododendron layout */
 
 * {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
-body {
-    padding: 0;
-    margin: 0;
+body{
+    padding:0;
+    margin:0;
 }
 
-header {
-    width: 100vw;
-    height: 100vh;
+header{
+    width:100vw;
+    height:100vh;
 }
 
-#Flower Picture Main {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+#Flower Picture Main{
+    position:absolute;
+    width:100vw;
+    height:100vh;
     background-image:url("Flower\ DTC\ Image.jpg;")"
-    background-size: cover;
-    background-position: center center;
+    background-size:cover;
+    background-position:center center;
 }
 
-#Flower Title {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+#Flower Title{
+    position:absolute;
+    width:100vw;
+    height:100vh;
 }
 
-#Flower Title h1 {
-    position: absolute;
-    bottom: 0;
-    left: 1em;
-    color: pink;
-    font-size: 2.5em;
-    width: calc(100vw - 2em);
+#Flower Title h1{
+    position:absolute;
+    bottom:0;
+    left:1em;
+    color:pink;
+    font-size:2.5em;
+    width:calc(100vw - 2em);
 }
 
 
 
 @media screen and (orientation: landscape) {
 
-    #Flower Picture Main {
-        width: 50vw;
+    #Flower Picture Main{
+        width:50vw;
     }
 
     #Flower Title{
-        width: 50vw;
-        left: 50vw;
-        background-color: white;
+        width:50vw;
+        left:50vw;
+        background-color:ite;
     }
 
-    #Flower Title h1 {
-        width: 45vw;
+    #Flower Title h1{
+        width:45vw;
     }
