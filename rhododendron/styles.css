@@ -35,7 +35,7 @@ header{
 
 #FlowerTitle h1{
     position: absolute;
-    bottom:1em;
+    bottom:10em;
     left:0em;
     color: pink;
 
@@ -50,19 +50,6 @@ p1{
 
 
 
-#FlowerPictureMain {
-        width:375vw;
-        left: 667vw;
-    }
 
-#FlowerTitle {
-        width: 375vw;
-        left: 222vw;
-        background-color:pink;
-    }
-
-     #FlowerTitle h1 {
-        width: 187vw;
-    }
 
 
