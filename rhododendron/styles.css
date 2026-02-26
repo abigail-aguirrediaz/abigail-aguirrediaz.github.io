@@ -26,7 +26,7 @@ header{
 
 #FlowerTitle {
     position:absolute;
-    width:200vw;
+    width:100vw;
     height:100vh;
     background-image:url("Flower\ PIc\ 3.jpg");
 
@@ -35,7 +35,6 @@ header{
 
 #FlowerTitle h1{
     position: absolute;
-    bottom: 0;
     left: 1em;
     color: pink;
     font-family:Bakersville;
