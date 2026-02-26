@@ -15,23 +15,23 @@ header{
     height:100vh;
 }
 
-#Flower Picture Main{
+#FlowerPictureMain{
     position:absolute;
     width:100vw;
     height:100vh;
-    background-image:url("Flower\ DTC\ Image.jpg;");
+    background-image:url("Flower\ DTC\ Image.jpg");
     background-size:cover;
     background-position:center center;
 }
 
-#Flower Title{
+#FlowerTitle{
     position:absolute;
     width:100vw;
     height:100vh;
     background-image:url("Flower\ PIc\ 3.jpg");
 }
 
-#Flower Title h1{
+#FlowerTitle h1{
     position:absolute;
     bottom:0;
     left:0;
