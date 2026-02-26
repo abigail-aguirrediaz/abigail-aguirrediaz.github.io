@@ -40,20 +40,3 @@ header{
     width:calc(100vw - 2em);
 }
 
-
-
-@media screen and (orientation: landscape) {
-
-    #Flower Picture Main{
-        width:50vw;
-    }
-
-    #Flower Title{
-        width:50vw;
-        left:50vw;
-        background-color:ite;
-    }
-
-    #Flower Title h1{
-        width:45vw;
-    }
