@@ -29,14 +29,15 @@ header{
     width:100vw;
     height:100vh;
     background-image:url("Flower\ PIc\ 3.jpg");
+    color:pink;
+    font-family:Bakersville;
 }
 
 #FlowerTitleh1{
     position:absolute;
     bottom:0;
     left:0;
-    color:pink;
-    font-family:Bakersville;
+
 }
 
 p1{
