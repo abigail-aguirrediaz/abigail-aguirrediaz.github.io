@@ -21,7 +21,7 @@ header{
     height:100vh;
     background-image:url("Flower\ DTC\ Image.jpg");
     background-size:cover;
-    background-position:center center;
+    background-position:center;
 }
 
 #FlowerTitle{
@@ -31,10 +31,16 @@ header{
     background-image:url("Flower\ PIc\ 3.jpg");
 }
 
-#FlowerTitle h1{
+#FlowerTitleh1{
     position:absolute;
     bottom:0;
     left:0;
     color:pink;
 }
 
+p1{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:pink;
+}
