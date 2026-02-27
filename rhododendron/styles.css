@@ -19,21 +19,21 @@ header {
     position:absolute;
     width:100vw;
     height:100vh;
-    background-image:url("Flower\ DTC\ Image.jpg");
+    background-image:url("Flower\ PIc\ 3.jpg");
 }
 
 #FlowerTitle {
     position:absolute;
     width:100vw;
     height:100vh;
-    background-image:url("Flower\ DTC\ Image.jpg");
+    background-image:url("Flower\ PIc\ 3.jpg");
 
 
 }
 
 #FlowerTitle h1{
     position:absolute;
-    left:5em;
+    left:-10em;
     color:pink;
 
 }
