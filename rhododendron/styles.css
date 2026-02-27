@@ -26,14 +26,13 @@ header {
     position:absolute;
     width:100vw;
     height:100vh;
-    background-image:url("Flower\ PIc\ 3.jpg");
+    background-image:url("Flower\ DTC\ Image.jpg");
 
 
 }
 
 #FlowerTitle h1{
     position:absolute;
-    bottom:em;
     left:5em;
     color:pink;
 
