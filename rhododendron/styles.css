@@ -27,8 +27,6 @@ header {
     position:absolute;
     width:100vw;
     height:100vh;
-   
-
 
 }
 
@@ -54,6 +52,8 @@ p{
     #FlowerTitle {
         width: 50vw;
         left: 50vw;
+        background-image:url("Flower\ PIc\ 3.jpg");
+        background-size: cover;
         
     }
 
