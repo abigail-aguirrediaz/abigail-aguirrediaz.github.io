@@ -20,52 +20,56 @@
 
     <h1>Code Log 5: Images </h1>
 
-    <h2>What are the differences between presenting an image using an HTML tag  
+    <h2>What are the differences between presenting an image using an HTML tag
         and presenting it as the background of an HTML element (using the CSS property background-image)?</h2>
 
-    <p>The differnce between using an HTML tag would be that in this case, the image is being embedded as content 
+    <p>The differnce between using an HTML tag would be that in this case, the image is being embedded as content
         to the page itself. The article "HTML Images" gives us an example of how this tag would look like.</P>
-                <textarea>
+    <textarea>
                     <img src="dinosaur.jpg" alt="Dinosaur" />
     </textarea>
-               
-                <p> Ultimatly, this tag would require two attributes to be useful which are "src" and "alt". While
-                    in contrast using the CSS property 
-                    
-                    
-                
-                    <textarea>
-            #p1 {background-color: #ff0000;}   /* red */
-          </textarea>
-                    A third way would be RGB colors, where each RGB color value is specified with the rgb() function
-                    of (red, green, blue). The code would look like,
-                    <textarea>
-            #p1 {background-color: rgb(255, 0, 0);}   /* red */
-#p2 {background-color: rgb(0, 255, 0);}   /* green */
-#p3 {background-color: rgb(0, 0, 255);}   /* blue */
-        </textarea>
-                    Lastly, another way of CSS color value would be HSL colors. HSL stands for hue, saturation, and
-                    lightness and it uses the syntax function of hsl(hue, saturation, lightness). An example of this
-                    would be,
-                    <textarea>
-            #p1 {background-color: hsl(120, 100%, 50%);}   /* green */
-#p2 {background-color: hsl(120, 100%, 75%);}   /* light green */
-#p3 {background-color: hsl(120, 100%, 25%);}   /* dark green */
-#p4 {background-color: hsl(120, 60%, 70%);}    /* pastel green */
 
-         </textarea>
-                </P>
+    <p> Ultimatly, this tag would require two attributes to be useful which are "src" and "alt".
+        While in contrast using the CSS property would be used to place an image in the background
+        of the content and or web page. This would mean this is part of the layout itself
+        rather than the content being placed. With that, we also don't need the "alt" text.
+        An example of this in code is shown in the website titled "CSS Background Property".</P>
+    <textarea>
+           body {
+  background: lightblue url("img_tree.gif") no-repeat fixed center;
+}
+    </textarea>
+
+    <p>Another example for an HTML and CSS image tags would be one we just used for some previous projects. 
+        The first example showsm the HTML tag and the second one is from a differenet project that used in 
+        image in CSS.</p>
+
+        <textarea>
+             <img src="Arroz-Con-Leche- DTC.webp">
+        </textarea>
+
+        <textarea>
+             background-image:url("Flower\ PIc\ 3.jpg");
+        </textarea>
+
+    <h3> Besides background-image, what other CSS properties affect the display of background images? 
+        Describe at least two more CSS properties.</h3>
+
+        <p> Two other CSS properties that affect the display of backgroung images would be background color
+            and background size. The background color sets the background color of an element and the background
+            size affects the size of the image in the background and its scale.
+
+        </p>
+
+        <h4> How would you define the differences between dimensions and resolution in a bitmap image? </h4>
+
+
+
+
+
 
 
     </p>
-
-
-
-
-
-
-
-
 
 </body>
 
