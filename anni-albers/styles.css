@@ -2,28 +2,28 @@
 
 /* by default, let's lay out the first index.html file */
 
-main {
+#firstLayout main {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-h1 {
+#firstLayout h1 {
     font-size: 3rem;
 }
 
-h2 {
+#firstLayout h2 {
     font-size: 0.75rem;
     font-style: italic;
 }
 
-p {
+#firstLayout p {
     font-size: 1.2rem;
     line-height: 2.5rem;
     width: 50%;
 }
 
-p.callout {
+#firstLayout p.callout {
     font-size: 2rem;
     line-height: 2.2rem;
     font-style: italic;
@@ -33,3 +33,6 @@ p.callout {
     margin-top: 0;
 }
 
+#secondLayout main {
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Code Log 5: Images </h1>
+
+    <h2>What do these CSS properties do?</h2>
+    <p>What is CSS color? Well the article "CSS Color Data Types" explains, "The <color> CSS data type
+            represents a color. A <color> may also include an alpha-channel transparency value,
+                indicating how the color should composite with it's background."
+                An example of this code could look something as follows.
+                <textarea>
+            p {
+  color: red; /* Makes paragraph text red */
+}
+</textarea>
+                Color can be assigned to an area as well which is where background color and border-color css come into
+                play. An example we can see would be how background color is able to cover the area behind the content
+                and element. A code example for that would be as follows.
+                <textarea>
+#p1 {background-color: rgb(255, 0, 0);}   /* red */
+#p2 {background-color: rgb(0, 255, 0);}   /* green */
+#p3 {background-color: rgb(0, 0, 255);}   /* blue */
+</textarea>
+                Lastly, for the border color in CSS, this is going to refer to the color of the border style. An example
+                of
+                this code could be as follows.
+                <textarea>
+button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: green; /* Green border */
+}
+</textarea>
+
+                <h3>How does CSS accept color as a value?</h3>
+                <p> There are different ways CSS can accept color as value and some of those ways would be Named,
+                    Hexadecimal, RGB, and HSL colors. Using the article "CSS Legal Color Values", we are able to
+                    learn more about these particular ways CSS accepts color.The first way would be a simple
+                    naming of the color, and the code could look like the following.
+                    <textarea>
+            aqua – #00FFFF (alias: cyan)
+        </textarea>
+                    The second example would be using a hexadecimal color which uses the coding method "#RRGGBB". According
+                    to the article mentioned above,"where the RR (red), GG (green) and BB (blue) hexadecimal integers
+                    specify the components of the color.All values must be between 00 and FF." 
+                    An example of this type of css coding would be,
+                    <textarea>
+            #p1 {background-color: #ff0000;}   /* red */
+          </textarea>
+                    A third way would be RGB colors, where each RGB color value is specified with the rgb() function
+                    of (red, green, blue). The code would look like,
+                    <textarea>
+            #p1 {background-color: rgb(255, 0, 0);}   /* red */
+#p2 {background-color: rgb(0, 255, 0);}   /* green */
+#p3 {background-color: rgb(0, 0, 255);}   /* blue */
+        </textarea>
+                    Lastly, another way of CSS color value would be HSL colors. HSL stands for hue, saturation, and
+                    lightness and it uses the syntax function of hsl(hue, saturation, lightness). An example of this
+                    would be,
+                    <textarea>
+            #p1 {background-color: hsl(120, 100%, 50%);}   /* green */
+#p2 {background-color: hsl(120, 100%, 75%);}   /* light green */
+#p3 {background-color: hsl(120, 100%, 25%);}   /* dark green */
+#p4 {background-color: hsl(120, 60%, 70%);}    /* pastel green */
+
+         </textarea>
+                </P>
+
+
+    </p>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
