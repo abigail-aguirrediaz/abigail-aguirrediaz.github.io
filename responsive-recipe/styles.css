@@ -2,3 +2,29 @@
 font-family: "Brush Script MT", "Lucida Handwriting", cursive;
 font-size: 20px;
 }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  grid-column: 1;
+   margin-bottom: 5px;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  grid-column: 2; 
+}
+
+header p {
+  grid-column: 1;
+}
+ 
+
