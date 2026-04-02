@@ -64,7 +64,7 @@ p {
 }
 
 #toggleDarkMode {
-    margin-top: 0em;
+    margin-top: 10em;
 }
 
 body.darkMode p {
