@@ -1,18 +1,21 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f2eb; /* beige */
+    background-color: #f9f2eb;
+    /* beige */
 }
 
 header {
-    background-color: #dfbf9f; /* brown */
+    background-color: #dfbf9f;
+    /* brown */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: #ffe6e6; /* pink */
+    background-color: #ffe6e6;
+    /* pink */
     padding: 10px;
     text-align: center;
 }
